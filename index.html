@@ -216,8 +216,8 @@
     .video-slot-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--text3);font-size:.78rem;font-weight:600;text-align:center;padding:12px;background:linear-gradient(135deg,var(--cream),var(--cream2));}
     .video-slot-ph span{font-size:1.6rem;}
     .photos-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-    .photo-slot{aspect-ratio:4/3;background:var(--white);border-radius:14px;overflow:hidden;border:2px dashed var(--cream3);}
-    .photo-slot img{width:100%;height:100%;object-fit:cover;display:block;}
+    .photo-slot{background:var(--white);border-radius:14px;overflow:hidden;border:2px solid var(--cream3);}
+    .photo-slot img{width:100%;display:block;height:auto;}
     .photo-slot-ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:var(--text3);font-size:.78rem;font-weight:600;text-align:center;padding:12px;background:linear-gradient(135deg,var(--cream),var(--cream2));}
     .photo-slot-ph span{font-size:1.6rem;}
   </style>
@@ -344,10 +344,10 @@
 
   <div class="photos-grid">
     <div class="photo-slot">
-      <img src="https://res.cloudinary.com/ch0ooyne/image/upload/f_auto,q_auto/WhatsApp_Image_2026-08-21_at_16.08.13.jpeg" alt="Result" onerror="this.parentElement.innerHTML='<div class=photo-slot-ph><span>📸</span>Add Photo 1</div>'"/>
+      <img src="https://res.cloudinary.com/ch0ooyne/image/upload/v1787309365/WhatsApp_Image_2026-08-21_at_16.08.13.jpg" alt="Result" onerror="this.parentElement.innerHTML='<div class=photo-slot-ph><span>📸</span>Add Photo 1</div>'"/>
     </div>
     <div class="photo-slot">
-      <img src="https://res.cloudinary.com/ch0ooyne/image/upload/f_auto,q_auto/WhatsApp_Image_2026-08-21_at_16.08.21.jpeg" alt="Result" onerror="this.parentElement.innerHTML='<div class=photo-slot-ph><span>📸</span>Add Photo 2</div>'"/>
+      <img src="https://res.cloudinary.com/ch0ooyne/image/upload/v1787309526/WhatsApp_Image_2026-08-21_at_16.08.21.jpg" alt="Result" onerror="this.parentElement.innerHTML='<div class=photo-slot-ph><span>📸</span>Add Photo 2</div>'"/>
     </div>
   </div>
 </section>
